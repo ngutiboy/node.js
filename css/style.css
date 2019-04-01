@@ -12,6 +12,7 @@
 }
  h2 {
      text-align: center;
+     text-shadow: 2px 2px 3px #666666;
 }
  nav {
      background-color: black;
@@ -23,7 +24,7 @@
      min-height: 8vh;
 }
  body {
-     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("profile.jpg");
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("image/profile.jpg");
      background-attachment: fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -44,7 +45,7 @@
          opacity: 1;
     }
 }
- nav-link active{
+ a:active{
      color: rgba(165, 42, 42, 0.637);
 }
  nav-links{
